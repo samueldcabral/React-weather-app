@@ -2,6 +2,98 @@
   text-align: center;
   width: 100%;
 }
+.cardTempo {
+  position: relative;
+  background-color: #fff5e3;
+  width: 30vw;
+  height: 40vh;
+  margin: 20px auto 20px auto;
+  padding: 20px 20px 20px 50px;
+}
+
+.cardTempo__h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #767676;
+  text-align: left; 
+  padding: 20px 0 0 0;
+}
+
+.cardTempo__h2 {
+  color: #515151;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.text_left {
+  text-align: left;
+}
+.cardTempo__X {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #ff7f00;
+  font-weight: 400;
+  font-size: 1.9rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.min-max {
+  line-height: 20px;
+  margin: 5px;
+}
+.arrow {
+  color: #ff7f00;
+  margin: 5px;
+  line-height: 20px;
+}
+
+.gridCard {
+  display: grid;
+  grid-template-areas: 
+  "minmax sensacao" 
+  "vento humidade";
+  width: 20vw;
+}
+
+.minmax {
+  grid-area: "minmax";
+  align-self: start;
+}
+
+.gridarea {
+  align-self: start;
+  font-weight: 400;
+  color: #a4a4a4;
+  line-height: 20px;
+  margin: 0;
+}
+
+.sensacao {
+  grid-area: "sensacao";
+}
+
+.vento {
+  grid-area: "vento";
+}
+
+.humidade {
+  grid-area: "humidade";
+}
+
+hr {
+  border: 2px #ffa651 solid;
+  position: relative;
+}
+
+strong {
+  font-weight: 600;
+  color: #878787;
+}
 
 body{
   background: linear-gradient(#ff7f00, #ffbb00);
@@ -24,6 +116,7 @@ h1 {
   width: 30vw;
   font-size: 1.5rem;
   font-weight: 400;
+  margin-left: 25px;
 }
 
 .search-icon {
