@@ -9,11 +9,11 @@ const TableWeather = ({ weather }) => {
       <div className="cardTempo__X">X</div>
       <h2 className="cardTempo__h2 text_left">{kelvinToC(weather.temp)}°C {weather.weather}</h2>
       <section className="gridCard">
-        <div className="flex minmax text_left">
+        <div className="flex minmax text_left gridarea">
           <i class="fa fa-arrow-down arrow" aria-hidden="true"></i>
-          <p className="min-max">{kelvinToC(weather.min)}°</p>
+          <p className="min-max"><strong>{kelvinToC(weather.min)}°</strong></p>
           <i class="fa fa-arrow-up arrow" aria-hidden="true"></i>
-          <p className="min-max ">{kelvinToC(weather.max)}°</p>
+          <p className="min-max "><strong>{kelvinToC(weather.max)}°</strong></p>
         </div>
         <div className="sensacao text_left gridarea">
           <p>Sensação <strong>{kelvinToC(weather.temp)}°</strong></p> 
