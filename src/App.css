@@ -20,6 +20,15 @@
   margin: 0;
 }
 
+.tr{
+  font-size: 1.6rem
+}
+
+.mainHr {
+  border: 1.5px solid #ffcd6b;
+  margin: 25px auto;
+  width: 40vw;
+}
 .cardTempo__h2 {
   color: #5d5d5d;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -43,6 +52,8 @@
 
 .flex {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
   padding-top: 10px;
 }
 
@@ -93,11 +104,13 @@
   "minmax sensacao" 
   "vento humidade";
   width: 20vw;
+  font-size: 1.4rem;
 }
 
 .minmax {
   grid-area: "minmax";
   align-self: start;
+  padding-top: 18px;
 }
 
 .gridarea {
@@ -122,8 +135,38 @@
 
 .table {
   width: 30vw;
+  position: absolute;
+  left: 27px;
 }
 
+.capitais {
+  color: white;
+  font-size: 3rem;
+  text-align: left;
+  margin: 0;
+
+}
+
+.capitaisDiv {
+  width: 30vw;
+  margin: 0 auto;
+}
+
+.capitais__th{
+  text-align: left;
+  font-weight: 300;
+  margin-top: 0;
+  padding: 5px;
+}
+
+.bold {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.tempo__h1 {
+  margin-bottom: 0;
+}
 hr {
   border: 2px #ffa651 solid;
   position: relative;

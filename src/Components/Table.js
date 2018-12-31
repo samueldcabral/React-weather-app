@@ -11,6 +11,7 @@ const TableWeather = ({ weather, bulkWeather }) => {
       <td class="widthTd"><div class="gridA"><div class="leftA">{displayTemp(x.minTemp)}°</div><div class="rightA">{displayTemp(x.maxTemp)}°</div></div></td>
     )
   }))
+
   return (
     <div className="cardTempo grid">
       <h3 className="cardTempo__h3">{weather.name}</h3>
@@ -35,12 +36,14 @@ const TableWeather = ({ weather, bulkWeather }) => {
       </section>
       <hr></hr>
       <table class="table">
-        <tr>
-         {days}
-        </tr>
-        <tr>
-          {temps}
-        </tr>
+        <tbody>
+          <tr class="tr">
+            {days}
+          </tr>
+          <tr>
+            {temps}
+          </tr>
+        </tbody>
       </table>
     </div>
   )
