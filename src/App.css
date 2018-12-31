@@ -6,7 +6,7 @@
   position: relative;
   background-color: #fff5e3;
   width: 30vw;
-  height: 40vh;
+  height: 35vh;
   margin: 20px auto 20px auto;
   padding: 20px 20px 20px 50px;
 }
@@ -21,7 +21,7 @@
 }
 
 .cardTempo__h2 {
-  color: #515151;
+  color: #5d5d5d;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 3.5rem;
   font-weight: 600;
@@ -54,6 +54,37 @@
   color: #ff7f00;
   margin: 5px;
   line-height: 20px;
+}
+.gridA {
+  display: grid;
+  grid-template-areas: "left right";
+  width: 100%;
+  margin: 0;
+}
+
+.widthTh {
+  padding-top: 5px;
+  width: 20%;
+  color: #5d5d5d;
+  font-size: 1.45rem;
+}
+.widthTd {
+  padding-top: 5px;
+  color: #ff7f00;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+.leftA {
+  grid-area: 'left';
+  text-align: right;
+  padding-right: 5px;
+}
+
+.rightA {
+  grid-area: 'right';
+  text-align: left;
+  padding-left: 5px;
 }
 
 .gridCard {
@@ -89,9 +120,14 @@
   grid-area: "humidade";
 }
 
+.table {
+  width: 30vw;
+}
+
 hr {
   border: 2px #ffa651 solid;
   position: relative;
+  margin: 10px 0;
 }
 
 strong {
@@ -117,7 +153,7 @@ h1 {
 
 .input-box {
   padding: 10px;
-  width: 30vw;
+  width: 32.5vw;
   font-size: 1.5rem;
   font-weight: 400;
   margin-left: 25px;
