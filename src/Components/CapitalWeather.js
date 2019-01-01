@@ -30,31 +30,31 @@ const CapitalWeather = ({ citiesWeather }) => {
   }))
 
   return (
-      <div className="capitaisDiv">
-        <h2 className="capitais">Capitais</h2>
-        <div className="flex">
-          <table className="tableOne">
-            <thead>
-              <tr>
-                <th className="capitais__th">Min</th>
-                <th className="capitais__th">Max</th>
-                <th className="capitais__th blank"></th>
-              </tr>
-            </thead>
-            <tbody>{cities}</tbody>
-          </table>
-          <table className="tableOne">
-            <thead>
-              <tr>
-                <th className="capitais__th">Min</th>
-                <th className="capitais__th">Max</th>
-                <th className="capitais__th blank"></th>
-              </tr>
-            </thead>
-            <tbody>{citiesRemaining}</tbody>
-          </table>
-        </div>
+    <div className="capitaisDiv">
+      <h2 className="capitais">Capitais</h2>
+      <div className="flex">
+        <table className="tableOne">
+          <thead>
+            <tr>
+              <th className="capitais__th">Min</th>
+              <th className="capitais__th">Max</th>
+              <th className="capitais__th blank"></th>
+            </tr>
+          </thead>
+          <tbody>{cities}</tbody>
+        </table>
+        <table className="tableOne">
+          <thead>
+            <tr>
+              <th className="capitais__th">Min</th>
+              <th className="capitais__th">Max</th>
+              <th className="capitais__th blank"></th>
+            </tr>
+          </thead>
+          <tbody>{citiesRemaining}</tbody>
+        </table>
       </div>
+    </div>
   )
 }
 

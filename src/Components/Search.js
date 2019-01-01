@@ -9,7 +9,6 @@ export default class Search extends Component {
     super(props);
 
     this.state = {
-      searchCity: '',
       citiesWeather: [],
       cities: ['rio de janeiro', 'sao paulo', 'belo horizonte', 'brasilia', 'belem', 'salvador', 'curitiba', 'fortaleza', 'manaus', 'joao pessoa']
     }
@@ -29,7 +28,7 @@ export default class Search extends Component {
     this.setState({searchCity})
   }
 
-  componentDidMount = () => {
+  componentDidMount(){
     let API_KEY =  '6148faff9108a7d1f74a9a332767fbfd';
     let { cities } = this.state
     let promises = cities.map(city => {
