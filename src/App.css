@@ -146,7 +146,6 @@
   font-size: 3rem;
   text-align: left;
   margin: 0;
-
 }
 
 .capitaisDiv {
@@ -220,4 +219,85 @@ h1 {
 .example-appear.example-appear-active {
   opacity: 1;
   transition: opacity 0.4s ease-in;
+}
+.tableTwo {
+  display: none;
+
+}
+
+@media (max-width: 600px) 
+{
+  body{
+    background: linear-gradient(#ff7f00, #ffbb00);
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  .input-box {
+    padding: 10px;
+    width: 80%;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .capitaisDiv {
+    width: 100%;
+    /* margin: 0 auto;
+    padding: 0 30px; */
+  }
+
+  .flex {
+    margin: 0 auto;
+  }
+
+  .capitais {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    /* margin: 0 auto; */
+  }
+  /* .tableOne {
+    margin:0 auto;
+  } */
+  .min-none {
+    display: none;
+  }
+  /* .capitais__th{
+    text-align: left;
+    font-weight: 300;
+    margin-top: 0;
+    padding: 5px;
+  } */
+
+  .tableTwo{
+    display: block;
+    margin: 0 auto;
+  }
+  .tableOne{
+    display: none;
+  }
+
+  .cardTempo {
+    position: relative;
+    width: 100%;
+    /* height: 100%; */
+    margin: 20px auto;
+    padding: 20px 20px 20px 50px;
+
+  }
+
+  .gridCard {
+    width: 100%;
+  }
+  .cardTempo__X{
+    /* right: 0px; */
+    left: 400px;
+    position: absolute;
+    top: 25px;
+    color: #ff7f00;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 1.9rem;
+  }
 }

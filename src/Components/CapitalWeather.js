@@ -29,6 +29,16 @@ const CapitalWeather = ({ citiesWeather }) => {
       }
   }))
 
+  const allCiites = (citiesWeather.map((x,index) => {
+    return (
+      <tr key={index}>
+        <td className="capitais__th bold">{displayTemp(x.main.temp_min)}</td>
+        <td className="capitais__th bold">{displayTemp(x.main.temp_max)}</td>
+        <td className="capitais__th bold">{x.name}</td>
+      </tr>
+    )
+  }))
+
   return (
     <div className="capitaisDiv">
       <h2 className="capitais">Capitais</h2>
@@ -45,13 +55,23 @@ const CapitalWeather = ({ citiesWeather }) => {
         </table>
         <table className="tableOne">
           <thead>
-            <tr>
+            <tr className="min-none">
               <th className="capitais__th">Min</th>
               <th className="capitais__th">Max</th>
               <th className="capitais__th blank"></th>
             </tr>
           </thead>
           <tbody>{citiesRemaining}</tbody>
+        </table>
+        <table className="tableTwo">
+          <thead>
+            <tr>
+              <th className="capitais__th">Min</th>
+              <th className="capitais__th">Max</th>
+              <th className="capitais__th blank"></th>
+            </tr>
+          </thead>
+          <tbody>{allCiites}</tbody>
         </table>
       </div>
     </div>
