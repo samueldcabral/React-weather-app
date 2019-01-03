@@ -1,4 +1,8 @@
 ### Weather React App
 
+#### This is my attempt at making a weather app following the challenge posted by 1STi on Github
+#### Check it out in the link bellow
 
-sudo bash -c 'echo 524288 > /proc/sys/fs/inotify/max_user_watches'
+[Desafio Frontend (Weather App) 1STi](https://github.com/1STi/desafio-frontend/ "Desafio FrontEnd 1STi")
+
+[Screen of the Weather App](https://i.imgur.com/lQWjXxU.png "React Weather App @samueldcabral")
