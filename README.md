@@ -5,4 +5,4 @@
 
 [Desafio Frontend (Weather App) 1STi](https://github.com/1STi/desafio-frontend/ "Desafio FrontEnd 1STi")
 
-[Screen of the Weather App](https://i.imgur.com/lQWjXxU.png "React Weather App @samueldcabral")
+[Screen of the Weather App](https://i.imgur.com/lQWjXxU.png?raw=true "React Weather App @samueldcabral")
