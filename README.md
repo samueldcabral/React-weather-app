@@ -4,5 +4,7 @@
 #### Check it out in the link bellow
 
 [Desafio Frontend (Weather App) 1STi](https://github.com/1STi/desafio-frontend/ "Desafio FrontEnd 1STi")
+---
 
-[Screen of the Weather App](http://i.imgur.com/lQWjXxU.png?raw=true "React Weather App @samueldcabral")
+### Screenshot
+![Print Screen of the Weather App](http://i.imgur.com/lQWjXxU.png "React Weather App")
